@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 .landing-page {
@@ -11,6 +10,7 @@
   width: 100vw;
   height: 100vh;
   background-color: #f8f8f8;
+  overflow: hidden;
 }
 
 .background-image {
