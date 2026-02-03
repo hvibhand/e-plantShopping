@@ -229,6 +229,13 @@
     }
   }
 
+  .cart-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;           /* space between buttons */
+    align-items: stretch; /* makes buttons same width */
+  }
+
   .get-started-button1 {
     padding: 15px 75px;
     font-size: 23px;
