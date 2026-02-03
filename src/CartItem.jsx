@@ -73,7 +73,7 @@ const CartItem = ({onContinueShopping}) => {
 
             {cart.length === 0 && <p>Your cart is empty.</p>}
 
-            <div>
+            <div className="cart-actions">
                 <button className="get-started-button1" onClick={handleContinueShopping}>Continue Shopping</button>
                 <button className="get-started-button1" onClick={() => alert('Coming Soon')}>Checkout</button>
             </div>

@@ -30,8 +30,7 @@ function App() {
                 </div>
 
                 {/* Optional About Us blurb visible on landing (keeps the .jsx present for AI checks) */}
-                <div className="aboutus_container"
-                     style={{maxWidth: 600, background: 'rgba(255,255,255,0.85)', borderRadius: 8, padding: 16}}>
+                <div className="aboutus_container">
                     <AboutUs/>
                 </div>
             </div>
